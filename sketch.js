@@ -148,7 +148,7 @@ var Grid = function (_w, _h) {
     }
 
     for (var i = 0; i < this.arrayLength; i++) {
-      this.noteStates[i] -= 0.09; // made the points disappear more quickly 
+      this.noteStates[i] -= 0.05; // made the points disappear more quickly 
       this.noteStates[i] = constrain(this.noteStates[i], 0, 1);
     }
 
